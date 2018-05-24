@@ -102,24 +102,23 @@ header {
 }
 
 .red-back {
-  background: red;
-  display: inline-block;
-  height: 40px;
-  position: relative;
-  width: 100px;
-    
-  
+    background: red;
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    width: 100px;
 }
+
 .red-back:before {
-  border-top: 35px solid red;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  content: "";
-  height: 0;
-  left: 0;
-  position: absolute;
-  top: 40px;
-  width: 0;
+    border-top: 35px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 0;
 }
 
 .red-back p {
@@ -133,7 +132,7 @@ header {
 .share {
     position: relative;
     left: 245px;
-    
+
 }
 
 .order-card {
@@ -158,7 +157,6 @@ header {
     font-size: 35px;
 }
 
- 
 .yellow span {
     color: black;
     font-family: "Roboto";
@@ -167,9 +165,7 @@ header {
     padding-left: 60px;
     position: relative;
     z-index: 1;
-    
 }
-
 
 .yellow span::after {
     content: '';
@@ -199,13 +195,12 @@ header {
 }
 
 .order-card__price span::after {
-    content:"\20BD"; 
+    content: "\20BD";
 }
 
 .crossed-price {
     margin-right: 25px;
     position: relative;
-    
 }
 
 .crossed-price::after {
@@ -217,7 +212,6 @@ header {
     transform: rotate(-20deg);
     top: 40px;
     display: block;
-    
 }
 
 .crossed-price i {
@@ -288,15 +282,12 @@ header {
 
 .about-text__top {
     margin-bottom: 45px;
-    
 }
 
 .about-img {
     margin-top: 130px;
     margin-right: 75px;
 }
-
-
 
 .about-head h2 {
     font-family: "MyriadProRegular";
