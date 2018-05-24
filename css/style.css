@@ -13,6 +13,8 @@
     font-weight: normal;
 }
 
+
+
 span {
     font-style: normal;
     color: white;
@@ -99,6 +101,41 @@ header {
     color: #ffe200;
 }
 
+.red-back {
+  background: red;
+  display: inline-block;
+  height: 40px;
+  position: relative;
+  width: 100px;
+    
+  
+}
+.red-back:before {
+  border-top: 35px solid red;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 0;
+}
+
+.red-back p {
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.share {
+    position: relative;
+    left: 245px;
+    
+}
+
 .order-card {
     width: 370px;
     height: 490px;
@@ -110,6 +147,8 @@ header {
     text-align: center;
     font-family: "Roboto";
     font-weight: 400;
+    font-size: 22px;
+    margin-top: 18px;
 }
 
 .order-card__text span {
@@ -119,26 +158,90 @@ header {
     font-size: 35px;
 }
 
-.yellow {
-    width: 250px;
-}
-
+ 
 .yellow span {
     color: black;
     font-family: "Roboto";
     font-size: 36px;
-    background-color: #ffe200;
-    width: 250px;
-    height: 60px;
-    text-align: center;
-    padding-top: 20px;
-    margin-left: 100px;
+    margin: 0 auto;
+    padding-left: 60px;
+    position: relative;
+    z-index: 1;
+    
 }
 
-label {
+
+.yellow span::after {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: #ffe200;
+    top: -20px;
+    left: 80px;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.order-card__price {
+    padding-top: 20px;
+}
+
+.order-card__price span {
+    display: block;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+    color: red;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.order-card__price span::after {
+    content:"\20BD"; 
+}
+
+.crossed-price {
+    margin-right: 25px;
+    position: relative;
+    
+}
+
+.crossed-price::after {
+    content: '';
+    color: red;
+    height: 3px;
+    width: 80px;
+    position: absolute;
+    transform: rotate(-20deg);
+    top: 40px;
+    
+}
+
+.crossed-price i {
+    display: block;
+    color: #a6a6a6;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+    font-style: normal;
+}
+
+.crossed-price em {
+    font-style: normal;
+    display: block;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.input-form label {
     cursor: pointer;
     font-family: "Roboto";
     font-weight: 700;
+    margin-bottom: 0px;
 }
 
 .label-name {
@@ -152,19 +255,24 @@ label {
     font-family: "MyriadProRegular";
     font-size: 24px;
     margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px red;
+    border: none;
 }
 
 .input-form {
     margin-left: 25px;
 }
 
-.name-input, .phone-input {
+.name-input,
+.phone-input {
     width: 320px;
     height: 45px;
     border-radius: 5px;
-    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
     outline: none;
     border: none;
+    margin-bottom: 10px;
 }
 
 
@@ -178,27 +286,34 @@ label {
     margin-top: 100px;
 }
 
+.about-text__top {
+    margin-bottom: 45px;
+    
+}
+
 .about-img {
     margin-top: 130px;
     margin-right: 75px;
 }
 
-.about-head {
-    position: relative;
-    
-}
+
 
 .about-head h2 {
-   z-index: 1; 
+    font-family: "MyriadProRegular";
+    font-size: 48px;
+    margin-bottom: 45px;
+    position: relative;
+    z-index: 1;
 }
 
-.yellow-back {
+.about-head h2::after {
+    content: '';
     position: absolute;
     width: 325px;
     height: 75px;
     background-color: #ffe200;
-    top: 10px;
-    left: 140px;
+    top: -10px;
+    left: 195px;
     z-index: -1;
 }
 
@@ -207,11 +322,26 @@ label {
     font-family: "MyriadProRegular";
     font-size: 48px;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
+.bottom-block__item {
+    margin-bottom: 80px;
+}
 
+.bottom-block__text h3 {
+    color: white;
+    margin-bottom: 30px;
+}
 
+.bottom-block__text p {
+    color: #c2c4eb;
+    font-family: "MyriadProRegular";
+    font-size: 18px;
+    font-weight: 400;
+}
 
-
-
-
+bottom-block__item img {
+    display: block;
+    max-width: 100%;
+}
