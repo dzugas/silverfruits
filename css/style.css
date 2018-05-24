@@ -210,12 +210,13 @@ header {
 
 .crossed-price::after {
     content: '';
-    color: red;
+    background-color: red;
     height: 3px;
     width: 80px;
     position: absolute;
     transform: rotate(-20deg);
     top: 40px;
+    display: block;
     
 }
 
