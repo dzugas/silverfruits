@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+span {
+    font-style: normal;
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+}
+
+header {
+    background-color: black;
+}
+
+.top-info-list__item {
+    width: 135px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-info-list__item:nth-child(2) {
+    margin-right: 15px;
+}
+
+.top-info-list__item-img {
+    margin-right: 5px;
+}
+
+.logo {
+    padding-top: 15px;
+    margin-right: 70px;
+}
+
+.order-button {
+    padding-top: 15px;
+    margin-left: 100px;
+}
+
+.order-button__text a {
+    color: white;
+}
+
+.order-button button {
+    background-color: #39d84c;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.order-button img {
+    margin-right: 10px;
+}
+
+.main {
+    height: 600px;
+    background: url('../img/girl-back.jpg') no-repeat;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.middle {
+    margin-top: 65px;
+}
+
+.middle__text {
+    padding-left: 70px;
+}
+
+.middle h1 {
+    color: white;
+    font-family: "MyriadProRegular";
+    font-size: 48px;
+}
+
+.middle p {
+    color: #c2c4eb;
+}
+
+.middle span {
+    color: #ffe200;
+}
+
+.order-card {
+    width: 370px;
+    height: 490px;
+    background: url('../img/card_back.jpg') no-repeat;
+    margin-top: 85px;
+}
+
+.order-card__text p {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.order-card__text span {
+    margin-left: 10px;
+    color: black;
+    font-family: "Roboto";
+    font-size: 35px;
+}
+
+.yellow {
+    width: 250px;
+}
+
+.yellow span {
+    color: black;
+    font-family: "Roboto";
+    font-size: 36px;
+    background-color: #ffe200;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+
+label {
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.label-name {
+    margin-right: 30px;
+}
+
+.order-submit {
+    background-color: red;
+    padding: 30px 50px;
+    color: white;
+    font-family: "MyriadProRegular";
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.input-form {
+    margin-left: 25px;
+}
+
+.name-input, .phone-input {
+    width: 320px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+    outline: none;
+    border: none;
+}
+
+
+.about {
+    background: url('../img/main_back.png') no-repeat;
+    height: 1240px;
+    background-color: #1f2147;
+}
+
+.about-text {
+    margin-top: 100px;
+}
+
+.about-img {
+    margin-top: 130px;
+    margin-right: 75px;
+}
+
+.about-head {
+    position: relative;
+    
+}
+
+.about-head h2 {
+   z-index: 1; 
+}
+
+.yellow-back {
+    position: absolute;
+    width: 325px;
+    height: 75px;
+    background-color: #ffe200;
+    top: 10px;
+    left: 140px;
+    z-index: -1;
+}
+
+.head {
+    color: #ffe200;
+    font-family: "MyriadProRegular";
+    font-size: 48px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
